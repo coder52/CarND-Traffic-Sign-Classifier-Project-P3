@@ -20,11 +20,11 @@ The goals / steps of this project are the following:
 [image1]: ./examples/visualization.jpg "Visualization"
 [image2]: ./examples/grayscale.jpg "Grayscaling"
 [image3]: ./examples/rotation.jpg "Rotation"
-[image4]: ./examples/placeholder.png "Traffic Sign 1"
-[image5]: ./examples/placeholder.png "Traffic Sign 2"
-[image6]: ./examples/placeholder.png "Traffic Sign 3"
-[image7]: ./examples/placeholder.png "Traffic Sign 4"
-[image8]: ./examples/placeholder.png "Traffic Sign 5"
+[image4]: ./simple_signs/1.jpg "Traffic Sign 1"
+[image5]: ./simple_signs/2.jpg "Traffic Sign 2"
+[image6]: ./simple_signs/3.jpg "Traffic Sign 3"
+[image7]: ./simple_signs/4.jpg "Traffic Sign 4"
+[image8]: ./simple_signs/5.jpg "Traffic Sign 5"
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
@@ -63,22 +63,29 @@ As a first step, I decided to convert the images to grayscale because the edges 
 
         `Gray = 0.2989*R + 0.5870*G + 0.1140*B`
     
-
 Here is an example of a traffic sign image before and after grayscaling.
 
 ![alt text][image2]
 
-As a last step, I normalized the image data because normalization ensures that the pixels of the image have a similar distribution. This makes convergence faster during training the network.
+As a last step, I normalized the image data because normalization ensures that the pixels of the image have a similar distribution. This makes convergence faster during training the network. I have used a quick way to approximately normalize the data.
 
-I decided to generate additional data because ... 
+        `Normalization = (pixel - 128)/ 128`
 
-To add more data to the the data set, I used the following techniques because ... 
+I decided to generate additional data Because the number of pictures of some traffic signs is quite small. I have produced fake data for traffic signs whose number of pictures is less than 3/5 of the average.
+
+I used rotation techniques to add more data to the data set because the images will seem at different angles while they were taken in the real world.I've turned all the training data by +10 and -10 degrees. Then I added them to the training set
 
 Here is an example of an original image and an augmented image:
 
 ![alt text][image3]
 
-The difference between the original data set and the augmented data set is the following ... 
+The difference between the original data set and the augmented data set is the following :
+        
+        Each image has a copy that +10 degree rotated in augmented training data.
+        
+        Each image has a copy that -10 degree rotated in augmented training data.
+        
+        Low frequent images have extra one copy in augmented training data
 
 
 #### 2. Describe what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.) Consider including a diagram and/or table describing the final model.
