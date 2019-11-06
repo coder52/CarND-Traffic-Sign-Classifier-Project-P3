@@ -167,7 +167,7 @@ For the first image, the model is relatively sure that this is a Priority Road (
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| 1.0         			| Stop sign   									| 
+| 1.0         			| Priority road 								| 
 | 0.0     				| 20km/h 										|
 | 0.0					| 30km/h										|
 | 0.0	      			| 50km/h       					 				|
