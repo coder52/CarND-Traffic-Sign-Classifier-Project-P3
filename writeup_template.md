@@ -26,7 +26,8 @@ The goals / steps of this project are the following:
 [image7]: ./simple_signs/4.jpg "Traffic Sign 4"
 [image8]: ./simple_signs/5.jpg "Traffic Sign 5"
 [image9]: ./simple_signs/6.jpg "Traffic Sign 6"
-[image10]: ./examples/outputFeatureMap.jpg "Output Feature Map"
+[image10]: ./examples/outputFeatureMap.jpg "Output Feature Map 1"
+[image11]: ./examples/outputFeatureMap_2.jpg "Output Feature Map 2"
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
@@ -190,5 +191,7 @@ For the other 4 images, the results are the same. But just last image is differe
 #### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
 
 ![alt text][image10]
+
+![alt text][image11]
 
 
