@@ -25,6 +25,7 @@ The goals / steps of this project are the following:
 [image6]: ./simple_signs/3.jpg "Traffic Sign 3"
 [image7]: ./simple_signs/4.jpg "Traffic Sign 4"
 [image8]: ./simple_signs/5.jpg "Traffic Sign 5"
+[image9]: ./simple_signs/6.jpg "Traffic Sign 6"
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
@@ -139,7 +140,7 @@ Initially I used the LeNet architecture of Yan LeCun. I obtained validation accu
 Here are five German traffic signs that I found on the web:
 
 ![alt text][image4] ![alt text][image5] ![alt text][image6] 
-![alt text][image7] ![alt text][image8]
+![alt text][image7] ![alt text][image8] ![alt text][image9]
 
 The model will not have difficulty in accurately predicting given examples. 
 
