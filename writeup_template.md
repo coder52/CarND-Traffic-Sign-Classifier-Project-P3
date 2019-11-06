@@ -110,7 +110,6 @@ My final model consisted of the following layers:
 | Fully connected		| outputs 84   									|
 | RELU					|												|
 | Fully connected		| outputs 10   									|
-| Softmax       		| outputs 10   									|
 |						|												|
 |						|												|
  
@@ -155,6 +154,7 @@ Here are the results of the prediction:
 | Yield					| Yield											|
 | 30 km/h	      		| 30 km/h   					 				|
 | Keep Riht 			| Keep Right        							|
+| No Parking 			| Go straight or right							|
 
 
 The model was able to correctly guess 5 of the 5 traffic signs, which gives an accuracy of 100%. 
