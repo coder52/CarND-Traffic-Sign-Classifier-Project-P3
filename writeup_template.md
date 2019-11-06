@@ -26,6 +26,7 @@ The goals / steps of this project are the following:
 [image7]: ./simple_signs/4.jpg "Traffic Sign 4"
 [image8]: ./simple_signs/5.jpg "Traffic Sign 5"
 [image9]: ./simple_signs/6.jpg "Traffic Sign 6"
+[image10]: ./examples/outputFeatureMap.jpg "Output Feature Map"
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
@@ -157,7 +158,7 @@ Here are the results of the prediction:
 | No Parking 			| Go straight or right							|
 
 
-The model was able to correctly guess 5 of the 5 traffic signs, which gives an accuracy of 100%. 
+The model was able to correctly guess 5 of the 6 traffic signs, which gives an accuracy of 83.3%. It is not possible to accurately estimate the 6th picture because it is not included in the training set.
 
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
@@ -187,5 +188,7 @@ For the other 4 images, the results are the same. But just last image is differe
 
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
 #### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
+
+![alt text][image10]
 
 
