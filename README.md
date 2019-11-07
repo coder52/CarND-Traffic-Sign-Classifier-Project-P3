@@ -111,7 +111,7 @@ My final model consisted of the following layers:
 | RELU					|												|
 | Fully connected		| outputs 84   									|
 | RELU					|												|
-| Fully connected		| outputs 10   									|
+| Fully connected		| outputs 43   									|
 |						|												|
 |						|												|
  
